@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+}
+
+header {
+    background-color: #82c0e9;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.notes {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.floating-table {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1000;
+    max-height: 300px; /* Adjust the max-height as needed */
+}
+
+.note-table {
+    width: 100%;
+    border-collapse: collapse;
+    display: block;
+}
+
+.table-header th {
+    background-color:#82c0e9;
+    color: white;
+}
+
+.note {
+    border: 1px solid #ccc;
+}
+
+.note td, .note th {
+    padding: 10px;
+    text-align: left;
+}
+
+.note:hover {
+    background-color: #ecf0f5;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #517a96;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #667a87;
+}
+
+/* Add more styles as needed */
